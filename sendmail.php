@@ -11,7 +11,7 @@ $mail-&gt;Host = 'smtp.yandex.ru';
 $mail-&gt;SMTPAuth = true;
 $mail-&gt;Username = 'dimitriy.bogatiy@yandex.ru';
 $mail-&gt;Password = '199906i2dB';
-$mail-&gt;SMTPSecure = 'tls';
+$mail-&gt;SMTPSecure = 'SSL';
 $mail-&gt;Port = 587;
  
 $mail-&gt;setFrom($email, $name);

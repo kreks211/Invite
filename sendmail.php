@@ -11,7 +11,7 @@ $mail = new PHPMailer;
 $mail-&gt;isSMTP();
 $mail-&gt;Host = 'smtp.yandex.ru';
 $mail-&gt;SMTPAuth = true;
-$mail-&gt;Username = 'dimitriy.bogatiy@yandex.ru';
+$mail-&gt;Username = 'send_wedding';
 $mail-&gt;Password = '199906i2dB';
 $mail-&gt;SMTPSecure = 'SSL';
 $mail-&gt;Port = 587;

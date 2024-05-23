@@ -37,7 +37,7 @@ if (!error_get_last()) {
     $mail->Username   = 'dimitriy.bogatiy@yandex.ru'; // Логин на почте
     $mail->Password   = 'pwagfvjqxlsfbljo'; // Пароль на почте
     $mail->SMTPSecure = 'ssl';
-    $mail->Port       = 465;
+    $mail->Port       = 587;
     $mail->setFrom('dimitriy.bogatiy@yandex.ru', 'dimitriy'); // Адрес самой почты и имя отправителя
     
     // Получатель письма

@@ -41,8 +41,7 @@ if (!error_get_last()) {
     $mail->setFrom('dimitriy.bogatiy@yandex.ru', 'dimitriy'); // Адрес самой почты и имя отправителя
     
     // Получатель письма
-    $mail->addAddress('poluchatel@ya.ru');  
-    $mail->addAddress('poluchatel2@gmail.com'); // Ещё один, если нужен
+    $mail->addAddress('dimitriy.bogatiy@yandex.ru');  
     
     // Прикрипление файлов к письму
     if (!empty($file['name'][0])) {

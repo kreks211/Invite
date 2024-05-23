@@ -1,5 +1,7 @@
 &lt;?php
-require 'PHPMailerAutoload.php';
+require './PHPMailer.php';
+require './SMTP.php';
+require './Exception.php';
  
 $name = $_POST['name'];
 $email = $_POST['email'];

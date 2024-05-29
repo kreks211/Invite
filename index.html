@@ -1,75 +1,55 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Пригласительное на свадьбу 24.08.2024</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> 
-       
-        <style> 
-            h1 { 
-                font-family: 'Montserrat', sans-serif; 
-            }
-
-            p { 
-                font-family: 'Montserrat', sans-serif; 
-            }      
-            
-            body {
-                    margin: 0;
-            }
-
-            @media screen and (max-width: 896px) {
-            /* Здесь вы можете изменить стили для мобильных устройств */
-            .container {
-                width: 100%;
-                max-width: 896px;
-            }
-          }
-
-            img {
-              height: auto;
-              width: 100%;
-              /* еще больше контроля с max-width */
-              max-width: 720px;
-            }          
-
-        </style>
-
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-
-    <body>
-
+    
       <div class="container">
+
         <div align="center">
 
-          <img src="./Без имеыни-1.jpg"> 
-          <h1>ДОРОГИЕ ДРУЗЬЯ!</h1>
-          <p>ПРИГЛАШАЕМ ВАС РАЗДЕЛИТЬ С НАМИ РАДОСТЬ ОСОБЕННОГО ДЛЯ НАС СОБЫТИЯ И СТАТЬ СВИДЕТЕЛЯМИ НАЧАЛА НАШЕЙ СЕМЕЙНОЙ ЖИЗНИ</p>
-          <img src="./2RFKTYLFHMb13188049d3919a8468c4aa82ce0d388.jpg"> 
-          <h1>КАК ДОБРАТЬСЯ?</h1>
-          <p>ДЛЯ ВАШЕГО УДОБСТВА МЫ ПОДГОТОВИЛИ КАРТЫ, НАДЕЕМСЯ, ЧТО ВЫ ПОРАДУЕТЕ НАС СВОИМ ПРИСУТСТВИЕМ!</p>
-          <img src="./карты.jpg"> 
-          <h1>ПРОГРАММА ДНЯ:</h1>
-          <img src="./таймингимени-1.jpg"> 
-          <h1>ДО СВАДЬБЫ ОСТАЛОСЬ:</h1>
-    
+          <!--<img src="pictures/Шапка.jpg" style="main">-->
+          <div class="top"></div> 
+
+          <div class="text-block">
+            <h1>ДОРОГИЕ ДРУЗЬЯ!</h1>
+          </div>
+
+          <div class="text-block">
+            <p>ПРИГЛАШАЕМ ВАС РАЗДЕЛИТЬ С НАМИ РАДОСТЬ ОСОБЕННОГО ДЛЯ НАС СОБЫТИЯ И СТАТЬ СВИДЕТЕЛЯМИ НАЧАЛА НАШЕЙ СЕМЕЙНОЙ ЖИЗНИ</p>
+          </div>
+
+          <img src="/pictures/Дата.jpg"> 
+
+          <div class="text-block">
+            <h1>КАК ДОБРАТЬСЯ?</h1>
+          </div>          
+
+          <div class="text-block">
+            <p>ДЛЯ ВАШЕГО УДОБСТВА МЫ ПОДГОТОВИЛИ КАРТЫ, НАДЕЕМСЯ, ЧТО ВЫ ПОРАДУЕТЕ НАС СВОИМ ПРИСУТСТВИЕМ!</p>
+          </div>
+
+          <img src="/pictures/Карты.jpg"> 
+          
+          <div class="text-block">
+            <h1>ПРОГРАММА ДНЯ:</h1>
+          </div>
+
+          <img src="/pictures/Тайминг.jpg"> 
+          
+          <div class="text-block">
+            <h1>ДО СВАДЬБЫ ОСТАЛОСЬ:</h1>
+          </div> 
+
         </div>
 
-        <form action="./sendmail.php" method="post">
-            <label for="name">Имя:</label>
-            <input type="text" id="name" name="name" required><br>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
-    
-            <label for="message">Сообщение:</label>
-            <textarea id="message" name="message" required></textarea><br>
-    
-            <input type="submit" value="Отправить">
-        </form>
-
-        <script type='text/javascript'>
+        <div class="timer">
+          <script type='text/javascript' class="timer">
             (function(){
                 var _id="3ba4da4facf3dd1c4de14685bd7c3c1f";
                 while(document.getElementById("timer"+_id))_id=_id+"0";
@@ -78,7 +58,7 @@
                 _t.src="https://megatimer.ru/timer/timer.min.js";
                 var _f=function(_k)
                 {
-                    var l=new MegaTimer(_id, {"view":[1,1,1,1],"type":{"currentType":"1","params":{"usertime":true,"tz":"3","utc":1724504400000}},"design":{"type":"text","params":{"number-font-family":{"family":"Poiret One","link":"<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"},"number-font-size":"50","number-font-color":"#000","separator-margin":"20","separator-on":true,"separator-text":":","text-on":true,"text-font-family":{"family":"Comfortaa","link":"<link href='//fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"},"text-font-size":"20","text-font-color":"#000000"}},"designId":1,"theme":"white","width":200,"height":72});
+                    var l=new MegaTimer(_id, {"view":[1,1,1,1],"type":{"currentType":"1","params":{"usertime":true,"tz":"3","utc":1724504400000}},"design":{"type":"text","params":{"number-font-family":{"family":"Poiret One","link":"<link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"},"number-font-size":"35","number-font-color":"#000","separator-margin":"10","separator-on":true,"separator-text":":","text-on":true,"text-font-family":{"family":"Comfortaa","link":"<link href='//fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic' rel='stylesheet' type='text/css'>"},"text-font-size":"15","text-font-color":"#000000"}},"designId":1,"theme":"white","width":200,"height":72});
                     if(_k!=null)l.run();
                 };
                 _t.onload=_f;
@@ -86,9 +66,46 @@
                 var _h=document.head||document.getElementsByTagName("head")[0];
                 _h.appendChild(_t);
             }).call(this);
-        </script>
+          </script>
+        </div>
+
+        <div align="center" class="form">
+          <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="a4216259-5b1e-47c5-ab1b-6db17bc7abe0">
+            
+            <h1 class="anketa">Анкета</h1>
+
+            <div class="FIO">
+              <input type="text" name="name" placeholder="Ваше имя и имя Вашей пары?"/>
+            </div>
+
+            <label for="agreement">Принимаете ли Вы приглашение?</label>
+            <input type="checkbox" id="agreement" name="Приглашение"><br><br>    
+
+            <div class="drinks" align="center">
+              <input type="checkbox" id="drink1" name="Алкоголь" value="Вино">Вино<br>
+              <input type="checkbox" id="drink2" name="Алкоголь" value="Шампанское">Шампанское<br>
+              <input type="checkbox" id="drink3" name="Алкоголь" value="Водка">Водка<br>        
+            </div>
+
+            <button type="submit">Отправить</button>
+        
+          </form>
+        </div>          
+
       </div>  
- 
+      
+      <script src="scroll.js"></script>
+
+      <!--<script>
+        $(function() {
+            $(window).on('scroll', function() {
+                $('.text-container').fadeTo(100, 1, "linear");
+            });
+        });
+      </script>-->
+   
   </body>
 </html>
 

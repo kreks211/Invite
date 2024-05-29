@@ -1,0 +1,95 @@
+.top {
+    background-image: url(/pictures/Шапка.jpg);
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:inherit;
+    height: 100vh;
+    width: 896px;
+    max-height: 100%;
+    max-width: 896px;
+    overflow: auto;
+  }
+
+  h1 { 
+    font-family: 'Montserrat', sans-serif; 
+  }
+
+  p { 
+    font-family: 'Montserrat', sans-serif; 
+  } 
+  
+  body {
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  @media screen and (max-width: 896px) {
+  .container {
+      width: 100%;
+      max-width: 896px;
+      padding-bottom: 30px;
+      overflow: scroll;
+  }
+}
+
+  img {
+    height: auto;
+    width: 100%;
+    /* еще больше контроля с max-width */
+    max-width: 720px;
+  } 
+  
+  .form {
+    border: 3px solid rgb(189, 170, 93);
+    padding-bottom: 30px;
+    margin: auto;
+    max-width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+  }
+
+  .input {
+    margin-bottom: 20px;
+    padding: auto;
+    font-size: xx-small;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .drinks {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  input {
+    margin-bottom: auto;
+  }
+
+  .anketa {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+  }
+
+  button {
+    background: rgb(189, 170, 93);
+    padding: .3em 2em calc(.3em + 1px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: aliceblue;
+  }
+
+  .timer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(189, 170, 93);            
+  }
+
+  .main {
+    padding-bottom: 100px;
+  }
+
+  .text-block {
+    opacity: 0; /* начальная прозрачность */
+    transition: opacity 1s ease-in-out; /* устанавливаем переход */
+  }
